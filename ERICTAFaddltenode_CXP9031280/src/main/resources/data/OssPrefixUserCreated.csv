@@ -1,0 +1,5 @@
+networkElementId,ipAddress,ossPrefix,nodeType,platformType
+Doozers00012,"10.242.63.2","",ERBS,CPP
+Doozers00015,"10.242.63.5","SubNetwork=OSS1,SubNetwork=LTE100",ERBS,CPP
+Doozers00017,"10.242.63.7","SubNetwork=OSS2",ERBS,CPP
+Doozers00019,"10.242.63.5","SubNetwork=OSS3,SubNetwork=LTE300",ERBS,CPP

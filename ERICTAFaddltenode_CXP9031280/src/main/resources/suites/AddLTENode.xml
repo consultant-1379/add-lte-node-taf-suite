@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Add LTE Node - Doozers">
+
+  <test name="'Add Node' Acceptance tests">
+    <classes>
+      <class name="com.ericsson.oss.mediation.cm.taf.testcases.AddNodeTest">
+        <methods>
+          <include name="GIVEN_requestToaddAndRemoveNodes_WHEN_ossPrefixExists_THEN_success"/>
+          <include name="GIVEN_requestToaddAndRemoveNodes_WHEN_meContextDoesNotExist_THEN_success"/>
+          <include name="GIVEN_requestToDeleteNode_WHEN_SupervisionIsNotDisabled_THEN_nodeIsNotDeleted"/>
+          <include name="GIVEN_requestToDeleteNode_WHEN_meContextExists_AND_nodeWasNeverSynched_THEN_success"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+</suite>

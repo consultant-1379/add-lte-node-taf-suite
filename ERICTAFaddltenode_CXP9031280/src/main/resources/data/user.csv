@@ -1,0 +1,2 @@
+username,firstName,lastName,email,password,enabled,roles
+AddDoozer,test1,test1,test@test.ie,Shroot12,true,ADMINISTRATOR
